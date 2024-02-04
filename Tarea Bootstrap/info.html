@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbum con Carrusel</title>
+  <!-- Enlace a Bootstrap CSS desde un CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Enlace a tu archivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">
+    <img src="logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    floriografía 
+    </a>
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="colors.html">Colores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Info.html">Más... </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Informacion-->
+  <div class="card text-center">
+    <div class="card-header">
+      Quote
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <h1>Conoce más sobre la floriografía.</h1>
+        <cite title="Source Title">"Un significacdo para el corazón"</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+  <!-- Album flores -->
+  <div class="container text-center  mt-5">
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col-sm-12 col-md-4 mb-4 ">
+        <div class="card ">
+          <img src="image1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red carpet</h5>
+            <p class="card-text">La elección de los arreglos florales, o de las flores para un ramo, además de ser un precioso detalle que ayudan a crear la atmósfera que buscamos</p>
+            <a href="https://www.gruporedcarpet.es/florigrafia-el-significado-de-las-flores/" class="btn btn-primary btn-block">Más información..</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="image2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Alblanc</h5>
+            <p class="card-text">La era victoriana (reina Victoria,1837-1901) fue una época de reglas sociales bastante rígidas. Temas como el amor o la pasión eran tabú y no podían ser expresados.</p>
+            <a href="https://alblancatelier.com/blogs/journal/el-significado-de-las-flores" class="btn btn-primary btn-block">Más información..</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4 mb-4">
+        <div class="card">
+          <img src="image3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ella la bella</h5>
+            <p class="card-text">El Lenguaje de las Flores, es llamado Floriografía, fue un medio de comunicación en la época victoriana, en donde variadas flores y arreglos florales...</p>
+            <a href="https://ellalabella.cl/floriografia-lenguaje-las-flores/" class="btn btn-primary btn-block">Más información..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Pie de página -->
+  <footer class="footer py-3 bg-light">
+    <div class="container text-muted">
+      Redes Sociales | Dirección
+    </div>
+  </footer>
+
+  <!-- Enlace a Bootstrap JS y jQuery desde un CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
