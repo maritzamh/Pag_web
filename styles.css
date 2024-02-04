@@ -1,0 +1,68 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  /*.navbar {
+    background-color: #ebe3e3 !important;
+    font-family: Arial, sans-serif;  Cambia la fuente según tus preferencias 
+    color: #ebe3e3;
+    z-index: index;
+    position: fixed;
+    top: 0;  Fijar la barra de navegación en la parte superior de la ventana del navegador 
+    width: 100%;  Asegurar que la barra de navegación ocupe toda la anchura de la ventana del navegador 
+    z-index: 1000;  Ajustar el z-index para asegurar que la barra de navegación esté por encima de otros elementos 
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 10px;
+  }*/
+  .navbar1 {
+    background-color: #f9fbfb; /* Cambia "yourColor" al color deseado */
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+    color: #010101; /* Cambia "yourTextColor" al color deseado */
+  }
+  .navbar1 {
+    text-align: center; /* Centrar el texto dentro de la barra de navegación */
+    /*background-color: #ebe3e3; /* Cambiar el color de fondo */
+    padding: 10px; /* Añadir un poco de espacio alrededor del texto */
+  }
+
+  .navbar1-text {
+    color: #0c0c0c; /* Cambiar el color del texto */
+    font-size: 20px; /* Cambiar el tamaño del texto */
+    font:  cursive; /* Cambia el tipo de letra a Arial o una fuente similar */
+    line-height: 1.5em;
+  }
+  .card {
+    background-color: #ffffff;
+  }
+  .carousel-wrapper {
+    padding: 20px; /* Ajusta el valor según la cantidad de relleno que desees */
+    background-color: #ffffff; /* Color de fondo blanco */
+  }
+/* Color de fondo personalizado para el navbar */
+.bg-custom {
+    background-color: #f9fbfb !important; /* Cambia #6a0dad al color que desees */
+  }
+  
+  /* Color del texto del navbar */
+  .navbar-nav .nav-link {
+    color: #4e4c4f !important; /* Cambia #ffffff al color que desees */
+  }
+  .nav-link:active,
+  .nav-link:focus {
+    background-color: #030303; /* Color de fondo cuando está activo o enfocado */
+    color: #0e0404; /* Color del texto cuando está activo o enfocado */
+    border: 2px solid #f9fbfb; /* Color del borde cuando está activo o enfocado */
+    border-radius: 5px; /* Radio de borde para redondear las esquinas */
+  }
+  .nav-link:hover {
+    background-color: #d138e2; /* Color de fondo al pasar el mouse por encima */
+    color: #0a0303; /* Color del texto al pasar el mouse por encima */
+    border-radius: 5px; /* Radio de borde para redondear las esquinas */
+    border: 2px solid #e8d0e5; /* Color del borde cuando está activo o enfocado */
+  }
+  h1 {
+    font-family:  Arial, fantasy; /* Cambia el tipo de letra a Arial o una fuente similar */
+    color: rgb(1, 1, 1); /* Cambia el color del texto a azul */
+    font-weight: bold; /* Hace el texto en negrita */
+}
